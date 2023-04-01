@@ -1,1 +1,1 @@
-export { TrackingBoard } from "./TrackingBoard";
+export { TrackingBoard } from './TrackingBoard';

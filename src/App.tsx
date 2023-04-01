@@ -3,9 +3,7 @@ import './App.css';
 import { TrackingBoard } from './components/TrackingBoard';
 
 function App() {
-  return (
-    <TrackingBoard />
-  );
+  return <TrackingBoard />;
 }
 
 export default App;
