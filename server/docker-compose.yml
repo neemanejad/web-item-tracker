@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  express-typescript-docker:
+  html-parser:
     environment:
       - NODE_ENV=development
     build:
@@ -9,7 +9,7 @@ services:
       dockerfile: dockerfile.dev
     volumes:
       - ./:/usr/src/app
-    container_name: express-typescript-docker
+    container_name: html-parser-container
     expose:
       - '5000'
     ports:

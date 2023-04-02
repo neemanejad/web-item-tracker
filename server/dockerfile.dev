@@ -1,6 +1,10 @@
 FROM node:lts-alpine
 
+ENV CHROMIUM_BIN="/usr/bin/chromium-browser"
+
 WORKDIR /usr/src/app
+
+RUN apk upgrade --no-cache --available && apk add chromium
 
 COPY package*.json ./
 
