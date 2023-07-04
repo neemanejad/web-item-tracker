@@ -1,4 +1,3 @@
-import React from 'react';
 import { ItemContainer, ItemHeader, ItemInfo } from './styles';
 
 export type TrackingItemProps = {
