@@ -1,5 +1,5 @@
 import puppeteer, { PuppeteerLaunchOptions } from 'puppeteer';
-import { WebItemRequest, WebItemResponse } from "../../common/src/types/types";
+import { WebItemRequest, WebItemResponse } from "#common/types";
 
 export async function parseWebItems(
   url: string,
